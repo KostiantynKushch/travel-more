@@ -1,0 +1,42 @@
+.ba-footer {
+  padding: 115px 0 40px;
+  background-color: #232323;
+  * {
+    margin: 0 auto;
+  }
+  // .ba-footer__inner
+
+  &__inner {
+    text-align: center;
+  }
+
+  // .ba-footer__logo
+
+  &__logo {
+  }
+
+  // .ba-footer__title
+
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  // .ba-footer__sub-title
+
+  &__sub-title {
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+  }
+
+  // .ba-footer__social
+
+  &__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+  }
+}

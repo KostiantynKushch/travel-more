@@ -1,0 +1,16 @@
+.ba-common {
+  padding: 230px 0 100px;
+  background: url(../img/bg-post-1.jpg) no-repeat center;
+  background-size: cover;
+  // .ba-common__inner
+
+  &__inner {
+  }
+
+  &--right {
+    background-image: url(../img/bg-post-2.jpg);
+    .ba-row {
+      justify-content: flex-end;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'fonts';
+@import 'normalize';
+@import 'layout';
+@import 'elements';
+@import 'hero';
+@import 'choose';
+@import 'points';
+@import 'common';
+@import 'testimonial';
+@import 'footer';
+
+body {
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1150px;
+}

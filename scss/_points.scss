@@ -1,0 +1,44 @@
+.ba-points {
+  padding: 80px 0 110px;
+  background-color: #333333;
+  position: relative;
+  // .ba-points__inner
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  // .ba-points__item
+
+  &__item {
+    z-index: 2;
+    &:nth-child(2) {
+      &:before {
+        position: absolute;
+        top: 15%;
+        left: 24%;
+        content: '';
+        width: 25%;
+        height: 50%;
+        border-top: 1px dashed #fff;
+        border-radius: 60%;
+        opacity: 0.5;
+        z-index: -1;
+      }
+      &:after {
+        position: absolute;
+        top: 15%;
+        right: 24%;
+        content: '';
+        width: 25%;
+        height: 50%;
+        border-top: 1px dashed #fff;
+        border-radius: 60%;
+        opacity: 0.5;
+        z-index: -1;
+      }
+    }
+  }
+}
